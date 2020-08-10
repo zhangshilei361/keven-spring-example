@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="keven-spring-1.0:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>keven-spring-1.0</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="keven-spring.war">
+      <element id="artifact" artifact-name="keven-spring-1.0:war exploded" />
+    </root>
+  </artifact>
+</component>
